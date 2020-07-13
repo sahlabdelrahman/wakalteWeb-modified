@@ -1,0 +1,28 @@
+.tp-sec {
+    margin-top: 0;
+}
+
+/* Start Services */
+.side-feature .border-list li {
+    padding: 10px;
+}
+
+/* End Services */
+
+/* Start cd-stretchy */
+
+.cd-stretchy-nav ul {
+    padding: 30px 0;
+}
+
+.cd-stretchy-nav ul li {
+    border: 1px solid transparent;
+}
+
+.cd-stretchy-nav ul li a span {
+    background-color: #FFF !important;
+
+}
+
+
+/* End cd-stretchy */
