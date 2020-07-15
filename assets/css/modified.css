@@ -106,9 +106,12 @@ nav .sidenav-trigger i {
 .strIcons a:hover img.strImg {
 	transform: scale(1.5);
 }
-.strIcons img.whatsapp {
+.strIcons a:hover i.strImg {
+	transform: scale(1.5);
+}
+.strIcons i.whatsapp {
     width: 36px !important;
-    height: 36px !important;
+    height: 36px !important;    
 }
 .strIcons a:hover img.whatsapp {
 	transform: scale(1.5);
