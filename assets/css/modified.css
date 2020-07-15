@@ -79,6 +79,7 @@ nav .sidenav-trigger i {
     left: 2%;
     width: 25%;
     max-width: 100px;
+    z-index: 10;
 }
 
 .rtl .strIcons {
