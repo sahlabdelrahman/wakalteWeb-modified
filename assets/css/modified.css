@@ -74,7 +74,7 @@ nav .sidenav-trigger i {
     z-index: 10;
 }
 
-.strIcons.whatapp {
+.strIcons.whatsapp {
 	position: fixed;
     left: 2%;
     width: 25%;
@@ -87,7 +87,7 @@ nav .sidenav-trigger i {
     left: 2%;
 }
 
-.rtl .strIcons.whatapp {
+.rtl .strIcons.whatsapp {
 	left: auto;
     right: 2%;
     bottom: 90px;
@@ -110,7 +110,7 @@ nav .sidenav-trigger i {
     width: 36px !important;
     height: 36px !important;
 }
-.strIcons a:hover img.whatapp {
+.strIcons a:hover img.whatsapp {
 	transform: scale(1.5);
 }
 /* End download app */
