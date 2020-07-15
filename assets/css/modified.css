@@ -1,3 +1,41 @@
+/* Start Header */
+header nav {
+    height: 100%;   
+    background-color: #FFF;
+    box-shadow: none;
+    
+}
+
+header .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#primary-menu ul li > a {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+nav .sidenav-trigger i {
+    color: #922194;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-15%);
+}
+
+@media (max-width: 991px) {
+    #logo {
+        margin: 0 !important;
+    }
+}
+
+.sidenav-overlay {
+    z-index: 198;
+}
+
+/* End Header */
+
 .tp-sec {
     margin-top: 0;
 }
@@ -26,3 +64,52 @@
 
 
 /* End cd-stretchy */
+
+/* Start download app */
+.strIcons {
+	position: fixed;
+    right: 2%;
+    width: 25%;
+    max-width: 100px;
+    z-index: 10;
+}
+
+.strIcons.whatapp {
+	position: fixed;
+    left: 2%;
+    width: 25%;
+    max-width: 100px;
+}
+
+.rtl .strIcons {
+	right: auto;
+    left: 2%;
+}
+
+.rtl .strIcons.whatapp {
+	left: auto;
+    right: 2%;
+    bottom: 90px;
+}
+.strIcons.apl {
+    bottom: 65px;/*90px*/
+}
+.strIcons.gog {
+    bottom: 110px;/*135px*/
+}
+.strImg {
+	-webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.strIcons a:hover img.strImg {
+	transform: scale(1.5);
+}
+.strIcons img.whatsapp {
+    width: 36px !important;
+    height: 36px !important;
+}
+.strIcons a:hover img.whatapp {
+	transform: scale(1.5);
+}
+/* End download app */
